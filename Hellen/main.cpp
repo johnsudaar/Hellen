@@ -1,37 +1,32 @@
 #include <SFML/Graphics.hpp>
+#include "Tile.h"
+#include "Parser.h"
+#include "utils.h"
+#include "World.h"
 
+#include <vector>
+#include <iostream>
+#include <fstream>
+#include <string>
+
+using namespace std;
 int main()
 {
-    // Create the main window
-    sf::RenderWindow app(sf::VideoMode(800, 600), "SFML window");
+    World *world = Parser::readWorld("res/PackMario/world.res");
+    sf::RenderWindow app(sf::VideoMode(1366, 768), "Hellen");
 
-    // Load a sprite to display
-    sf::Texture texture;
-    if (!texture.loadFromFile("cb.bmp"))
-        return EXIT_FAILURE;
-    sf::Sprite sprite(texture);
-
-	// Start the game loop
     while (app.isOpen())
     {
-        // Process events
         sf::Event event;
         while (app.pollEvent(event))
         {
-            // Close window : exit
             if (event.type == sf::Event::Closed)
                 app.close();
         }
 
-        // Clear screen
         app.clear();
-
-        // Draw the sprite
-        app.draw(sprite);
-
-        // Update the window
+        world->render(app);
         app.display();
     }
-
     return EXIT_SUCCESS;
 }

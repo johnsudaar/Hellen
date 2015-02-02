@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add library="sfml-graphics" />
@@ -27,6 +28,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -40,7 +42,24 @@
 			<Add option="-Wall" />
 		</Compiler>
 		<Unit filename="cb.bmp" />
+		<Unit filename="include/Parser.h" />
+		<Unit filename="include/Tile.h" />
+		<Unit filename="include/World.h" />
+		<Unit filename="include/utils.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Unit filename="main.cpp" />
+		<Unit filename="res/Pack1/tiles/1.tile" />
+		<Unit filename="res/Pack1/tiles/2.tile">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="res/Pack1/world.res">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="src/Parser.cpp" />
+		<Unit filename="src/Tile.cpp" />
+		<Unit filename="src/World.cpp" />
+		<Unit filename="src/utils.cpp" />
 		<Extensions>
 			<code_completion />
 			<debugger />
