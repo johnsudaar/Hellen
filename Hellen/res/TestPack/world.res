@@ -1,0 +1,15 @@
+--TEXTURES--
+1:sprites/tileset.png
+--TILES--
+1.sprite
+10
+10
+1.sprite
+10
+230
+2.sprite
+230
+10
+2.sprite
+230
+230
