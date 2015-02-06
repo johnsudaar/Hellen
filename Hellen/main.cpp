@@ -12,7 +12,7 @@
 using namespace std;
 int main()
 {
-    World *world = Parser::readWorld("res/PackMario/world.res");
+    World *world = Parser::readWorld("res/TestPack/world.res");
     sf::RenderWindow app(sf::VideoMode(1366, 768), "Hellen");
     sf::View* tempView = new sf::View(sf::FloatRect(200,200,100,100));
     app.setView(*tempView);

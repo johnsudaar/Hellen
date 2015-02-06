@@ -37,6 +37,5 @@ void World::move(int x, int y){
 
 void World::zoom(float factor){
     this->size += factor;
-    cout<<this->size<<endl;
     this->view->setSize(this->size, this->size);
 }
