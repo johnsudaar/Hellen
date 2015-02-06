@@ -19,7 +19,7 @@ class World
         void zoom(float factor);
     protected:
     private:
-        int s_x, s_y;
+        int p_x, p_y;
         float size;
         map<int,sf::Texture*>* _textures;
         vector<Tile*>* tiles;

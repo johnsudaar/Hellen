@@ -13,12 +13,12 @@ using namespace std;
 int main()
 {
     log("Coucou",INFO);
-    World *world = Parser::readWorld("res/TestPack/world.res");
-    sf::RenderWindow app(sf::VideoMode(1366, 768), "Hellen");
-    sf::View* tempView = new sf::View(sf::FloatRect(200,200,100,100));
-    app.setView(*tempView);
+    World *world = Parser::readWorld("res/PackMario/world.res");
+    World *bg = Parser::readWorld("res/TestPack/world.res");
 
-    app.setView(*(world->getView()));
+    sf::RenderWindow app(sf::VideoMode(1366, 768), "Hellen");
+    sf::View* tempView = new sf::View(sf::FloatRect(533,200,100,100));
+
     while (app.isOpen())
     {
         sf::Event event;
@@ -43,8 +43,11 @@ int main()
             app.close();
         }
         app.clear();
-        world->render(app);
+
+        app.setView(*(bg->getView()));
+        bg->render(app);
         app.setView(*(world->getView()));
+        world->render(app);
         app.display();
     }
     return EXIT_SUCCESS;
