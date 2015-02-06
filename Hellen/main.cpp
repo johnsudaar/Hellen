@@ -12,6 +12,7 @@
 using namespace std;
 int main()
 {
+    log("Coucou",INFO);
     World *world = Parser::readWorld("res/TestPack/world.res");
     sf::RenderWindow app(sf::VideoMode(1366, 768), "Hellen");
     sf::View* tempView = new sf::View(sf::FloatRect(200,200,100,100));
