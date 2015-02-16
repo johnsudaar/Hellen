@@ -1,0 +1,80 @@
+Projet Hellen : Etudes
+Auteurs : Kobersi Pauline, Hurter Jonathan
+
+Document : Ebauche des classes principales (affichage)
+
+Elements graphique
+	- Tile
+		- h
+		- w
+		- x
+		- y
+		- r
+		- Texture
+			- file
+			- x
+			- y
+		- Actions
+			- onCollide
+			- animate
+	- Text
+		- x
+		- y
+		- size
+		- r
+		- test
+		- font
+		- Actions
+			- onCollide
+			- animate
+	- Button
+		- x
+		- y
+		- w
+		- h
+		- Background
+			- Tile
+		- Content
+			- Text
+		- Actions
+			- onClick
+
+	- DialogBox
+		- x
+		- y
+		- w
+		- h
+		- BackGround
+			- Tile
+		- Content
+			- Text
+		- Properties
+			- scrollable
+			- actions
+				- Button
+
+Entity
+	- Type ([Creature],[Player])
+	- hp
+	- Tile
+	- Carac
+		- ???
+	- Actions
+		- onAttack
+		- onDeath
+		- onSpawn
+		- animate
+
+Level
+	- Propeties
+		- gravity
+	- Elements
+		- Tile
+		- Text
+		- Button
+		- DialogBox
+		- Entity
+	- Action
+		- onPlayerMove
+		- onDeath
+		- onPlayerOut

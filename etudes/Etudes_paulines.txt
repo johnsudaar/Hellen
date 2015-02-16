@@ -1,0 +1,76 @@
+Sorts :
+	- Différents sorts
+		- Débloqué au fur et a mesur
+		- Possibilitée de gerer la puissance
+	- Liste
+		- Aller + vite
+		- Protection contre le feu (nuage transformation de la lave en obsi)
+	- Roue de sort ?
+	- Sorts obtenu sur les mobs
+		- Sorts plus puissants dispo dans des zones de farm/cachées
+	- Cooldown
+
+Bouttons :
+	- Attaque CAC
+	- Utiliser objet
+	- Roue de sort
+
+Objets :
+	- Redonner vie/mana
+	- Armes
+		- Distance
+		- CAC
+	- Ailes :
+		Utilisable pendant 3s
+	- Photos a collectionner
+
+Portes :
+	- Aleat : Gang Bang ennemies / objets
+	- Elements d'histoire (Photos)
+
+Enfer :
+	Faucon = CONNARD
+	Vie/mana regenere moins vite
+	Plus orienté monstres
+	Portes :
+		- GangBang +fort
+	Gravitée +forte
+	Idées :
+		- mur qui se raprochent
+		- Lave qui monte
+		- Plateformes piégées
+	Difficultée :
+		- Plateformes + ennemies
+	Plateforme :
+		- Obsi
+		- Roche
+		- Failles
+		- Grottes
+	Monstres :
+		- Loup
+		- Diablotin
+		- Serpent (Empoisonne (+ antiserum/bandages))
+		- Esprits
+		- Chauves souris
+		- Squelettes
+		- araignées
+		- Goules
+	Boss :
+		- Medusa
+		- Chimére
+		- Hydre
+
+Paradis :
+	Faucon t'aide
+	Plus orienté enigmes
+	Portes :
+		- Plus de chance sorts
+	Enigmes a base d'or (redirections etc...)
+	Monstres utiles dans la résolution des enigmes (chercher objets)
+
+Divers :
+	- Les actions du joueur definissent paradis/enfer
+	- Vidéos/flashback flous/son indefinissable
+	- Jamais raconter l'histoire, toujours faire référence
+	- Savepoints (pas de ssauvegarde) (tout automatique)
+	- Checkpoints : Hell coin a donner ! (Paradis : Fontaines)
